@@ -4,11 +4,25 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let passwordOne = document.getElementById("passwordOneEl")
 let passwordTwo = document.getElementById("passwordTwoEl")
 
-function generate() {
+function generate() {    
 
-    
-    passwordOne.textContent = "Te$tPaS$word"
+    for (i = 0; i < 15; i++) {
 
+        let randomIndex = Math.floor( Math.random() * characters.length)      
+
+        passwordOne.textContent += characters[randomIndex] 
+         
+
+    }
+
+    for (i = 0; i < 15; i++) {
+
+        let randomIndex = Math.floor( Math.random() * characters.length)      
+
+        passwordTwo.textContent += characters[randomIndex] 
+         
+
+    }
 
 
 }
