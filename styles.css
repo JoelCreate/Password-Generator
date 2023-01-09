@@ -19,7 +19,7 @@ body {
 } 
 
 #content{
-    padding: 115px 50px;
+    padding: 100px 50px;
     line-height: .5;
 }
 
@@ -50,6 +50,11 @@ h2 {
     padding: 12px 20px;
 }
 
+.btn:hover {
+    cursor: pointer;
+    background: #059666;
+}
+
 #line {
     background: #D5D4D8;
     border: none;
@@ -57,3 +62,25 @@ h2 {
     width: 100%;
     margin: 40px auto;
 }
+
+#passwordBlocks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -115px;
+}
+
+.passwords {
+    background: #273549;
+    width: 210px;
+    height: 40px;
+    border-radius: 5px;
+    color: #5DEF92;
+}
+
+#passwordOneEl,#passwordTwoEl {
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: center;
+    padding: 7px 10px;
+}
+
