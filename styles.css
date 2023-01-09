@@ -5,16 +5,55 @@ body {
     background: #1C1C1C;
     font-family: 'Inter', sans-serif;
     display: flex;
+    width: 100vw;
+    height: 800px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 #container {
     background: #ECFDF5;
-    width: 800px;
-    height: 800px;
-    justify-content: center;
+    width: 600px;
+    height: 600px;
+} 
+
+#content{
+    padding: 115px 50px;
+    line-height: .5;
 }
 
 h1 {
     font-family: 'Karla', sans-serif;
     color: #273549;
+    font-size: 40px;
+}
+
+h2 {
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#lineTwo {
+    color: #10B981;
+}
+
+.btn {
+    margin-top: 55px;
+    color: #fff;
+    background: #10B981;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+#line {
+    background: #D5D4D8;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin: 40px auto;
 }
