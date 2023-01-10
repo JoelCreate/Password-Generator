@@ -3,6 +3,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let passwordOne = document.getElementById("passwordOneEl")
 let passwordTwo = document.getElementById("passwordTwoEl")
+let generateBtn = document.getElementById("generateEl")
 
 let reset = document.getElementById("resetEl")
 
@@ -24,6 +25,8 @@ function generate() {
 
     }
 
+    generateBtn.disabled = true
+
 
 }
 
@@ -33,5 +36,7 @@ function resetbtn() {
 
     passwordOne.textContent = reset
     passwordTwo.textContent = reset
+
+    generateBtn.disabled = false
 
 }
