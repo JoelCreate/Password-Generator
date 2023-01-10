@@ -6,7 +6,7 @@ body {
     font-family: 'Inter', sans-serif;
     display: flex;
     width: 100vw;
-    height: 800px;
+    min-height: 100vh;
     overflow: hidden;
     align-items: center;
     justify-content: center;
@@ -84,3 +84,60 @@ h2 {
     padding: 7px 10px;
 }
 
+.reset {
+    background: #E09F3E;
+    padding: 20px 45px !important;
+    margin-left: 29.5vw;
+}
+
+
+/*************************************
+    MOBILE VERSION
+*************************************/
+
+@media (max-width: 1000px) {
+    
+    #container {
+        width: 85vw;
+        height: 80vh;
+    }
+
+    h1 {
+        font-size: 8em;
+        margin: 0px;
+        line-height: 1em;
+    }
+
+    h2 {
+        font-size: 3em;
+        margin: 45px 10px;
+        line-height: 1.25em;
+    }
+
+    #content {
+        padding: 100px 50px 0px 50px;
+    }
+
+    .btn {
+        font-size: 3em;
+        padding: 25px 30px;
+        border-radius: 10px;
+    }
+
+    #passwordBlocks {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .passwords {
+        margin: 50px auto;
+        width: 75vw;
+        height: 100px;
+    }
+
+    #passwordOneEl, #passwordTwoEl {
+        font-size: 3em;
+        padding: 20px 10px;
+    }
+
+  }

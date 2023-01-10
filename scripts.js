@@ -4,14 +4,15 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let passwordOne = document.getElementById("passwordOneEl")
 let passwordTwo = document.getElementById("passwordTwoEl")
 
+let reset = document.getElementById("resetEl")
+
 function generate() {    
 
     for (i = 0; i < 15; i++) {
 
         let randomIndex = Math.floor( Math.random() * characters.length)      
 
-        passwordOne.textContent += characters[randomIndex] 
-         
+        passwordOne.textContent += characters[randomIndex]          
 
     }
 
@@ -19,10 +20,18 @@ function generate() {
 
         let randomIndex = Math.floor( Math.random() * characters.length)      
 
-        passwordTwo.textContent += characters[randomIndex] 
-         
+        passwordTwo.textContent += characters[randomIndex]         
 
     }
 
+
+}
+
+function resetbtn() {
+
+    reset = " "
+
+    passwordOne.textContent = reset
+    passwordTwo.textContent = reset
 
 }
