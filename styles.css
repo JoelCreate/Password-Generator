@@ -90,6 +90,10 @@ h2 {
     margin-left: 30vw;
 }
 
+.reset:hover {
+    background: #7e5210;
+}
+
 #bottomTag {
     text-align: center;
     font-size: 1em;
@@ -106,10 +110,13 @@ h2 {
 
 @media (max-width: 1000px) {
     
-    body {
+    html, body {
         overflow: hidden;
-        
-    }
+      }
+
+    body {
+        position: relative;
+    }    
 
     #container {
         width: 85vw;
