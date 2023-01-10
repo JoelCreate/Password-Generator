@@ -90,6 +90,15 @@ h2 {
     margin-left: 29.5vw;
 }
 
+#bottomTag {
+    text-align: center;
+    font-size: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    color: #61707D;
+}
 
 /*************************************
     MOBILE VERSION
